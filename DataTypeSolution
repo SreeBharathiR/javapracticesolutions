@@ -1,0 +1,16 @@
+class Datatype {
+    public static void main(String args[]) {
+        String str="Float";
+        int res=0;
+        if(str=="Character"){
+            res=1;
+        }
+        if(str=="Integer" || str=="Float"){
+            res=4;
+        }
+        if(str=="Long" || str=="Double"){
+            res=8;
+       }
+       System.out.println(res);
+   }
+}
