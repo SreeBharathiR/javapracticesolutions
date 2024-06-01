@@ -1,0 +1,15 @@
+class Solution {
+    public static String compareNM(int n, int m) {
+        String s="";
+        if(n>m){
+            s="greater";
+        }
+        else if(n<m){
+            s="lesser";
+        }
+        else{
+            s="equal";
+        }
+        return s;
+    }
+}
