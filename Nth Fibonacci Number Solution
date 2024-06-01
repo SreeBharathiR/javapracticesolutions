@@ -1,0 +1,24 @@
+import java.util.*;
+public class Solution {
+
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+		int a=0;
+		int b=1;
+		int t=0;
+		if(n==1){
+			System.out.println(b);
+		}
+        else{
+			for(int i=1;i<n;i++){
+			t=b;
+            b=a+b;
+			a=t;
+		}
+		  System.out.println(b);
+		}
+	}
+
+}
