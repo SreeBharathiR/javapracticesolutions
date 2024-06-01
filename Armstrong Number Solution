@@ -1,0 +1,17 @@
+public class amstrong {
+    public static void main(String srgs[]){
+        int n=2, t=0, res=0;
+        int N=n;
+        while(n!=0){
+            t=n%10;
+            res=res+ (t*t*t);
+            n=n/10;
+        }
+        if(res==N){
+            System.out.println("Yes");
+        }
+        else{
+            System.out.println("No");
+        }
+    }
+}
