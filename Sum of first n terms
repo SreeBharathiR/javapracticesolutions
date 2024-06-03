@@ -1,0 +1,10 @@
+class Solution {
+    long ans=0;
+    long sumOfSeries(long n) {
+        if(n>0){
+            sumOfSeries(n-1);
+            ans+=n*n*n;
+        }
+        return ans;
+    }
+}
